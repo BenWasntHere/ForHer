@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#rose-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.rose {
+  width: 30px;
+  height: 50px;
+  background-image: url('rose.png'); /* Add your rose image path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

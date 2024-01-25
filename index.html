@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Valentine's Day Surprise</title>
-  <!-- Remove or adjust the Permissions-Policy meta tag if present -->
-  <!-- <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/> -->
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="rose-container"></div>
-  <script src="script.js"></script>
+    <div class="container">
+        <p id="message">Tap me</p>
+        <img src="rose.png" alt="Rose" id="rose" onclick="showMessage()">
+        <p id="valentineMessage" class="hidden">Happy Valentine's Day!</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

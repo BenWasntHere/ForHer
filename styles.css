@@ -18,7 +18,7 @@ body {
 }
 
 #rose {
-    max-width: 100%;
+    width: 150px; /* Set the width to your preference for mobile devices */
     height: auto;
     cursor: pointer;
 }
@@ -31,11 +31,4 @@ body {
 
 .hidden {
     display: none;
-}
-
-/* Media query for screens smaller than 600px (typical mobile phones) */
-@media (max-width: 600px) {
-    #rose {
-        max-width: 80%; /* Adjust the width for smaller screens */
-    }
 }
